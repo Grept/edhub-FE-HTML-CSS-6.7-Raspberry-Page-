@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(280, 13%, 87%);
+    color: hsl(223, 10%, 36%);
+    font-family: poppins, SansSerif, monospace;
+    font-weight: 300;
+}
+
+h1, h2, h3{
+    color: hsl(281, 26%, 48%);
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#introduction{
+    font-weight: bold;
+}
+
+ul{
+    list-style: square;
+}
+
+button{
+    color: white;
+    background-color: hsl(281, 26%, 48%);
+
+    font-size: large;
+}
+
+button:hover{
+    color: hsl(281, 26%, 48%);
+    background-color: white;
+}
